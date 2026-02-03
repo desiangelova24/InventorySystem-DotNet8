@@ -15,7 +15,7 @@ You can access the live API documentation here:
 - **Security:** Implemented HTTP Basic Authentication middleware to protect sensitive endpoints.
 - **Database:** MS SQL Server integrated via Entity Framework Core with full Migration history.
 - **Soft Delete:** Logic implemented to ensure data safety.
-- **Currency:** Fully updated to support **EUR** as the official Bulgarian currency (Standard 2026).
+- **Currency:** Fully updated to support **EUR**.
 
 ## ⚙️ Setup & Installation
 1. Clone the repository.
