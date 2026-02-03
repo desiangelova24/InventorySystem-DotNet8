@@ -2,11 +2,11 @@
 
 This project is a high-performance backend solution for managing warehouse stocks and product catalogs, built with scalability and security in mind.
 
-## 🛠 Tech Stack
+# 🛠 Tech Stack
 * **Framework:** .NET 8 (Latest LTS)
-* **Database:** SQL Server (Microservices architecture with separate database concerns)
+* **Database:** **MS SQL Server 2025** (High-performance relational database)
 * **Hosting:** Professionally hosted on [MonsterASP.net](https://www.monsterasp.net/)
-* **Currency:** **EUR** (Fully compliant with Bulgaria 2026 official currency standard)
+* **Currency:** **EUR**
 * **Documentation:** Swagger / OpenAPI with Middleware Security
 
 ## 🌟 Key Features
