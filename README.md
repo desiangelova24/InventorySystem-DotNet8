@@ -29,6 +29,6 @@ The application is professionally hosted and live for review:
 ## 🌐 Infrastructure & Hosting
 This project is professionally hosted on **MonsterASP.net**. 
 
-[![MonsterASP.net](https://www.monsterasp.net/images/logo.png)](https://www.monsterasp.net/)
+[![MonsterASP.net](https://img.shields.io/badge/Hosted%20on-MonsterASP.net-green?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://www.monsterasp.net/)
 
 *Reliable .NET Cloud Hosting used for the live deployment of this API.*
