@@ -52,11 +52,9 @@ app.Use(async (context, next) =>
             return;
         }
 
-        // Използваме .Set вместо .Append за по-голяма съвместимост с Chrome
         context.Response.Headers["WWW-Authenticate"] = "Basic realm=\"Swagger\", charset=\"UTF-8\"";
         context.Response.StatusCode = 401;
 
-        // Важно: първо се праща хедърът, после тялото
         await context.Response.WriteAsync("Access Denied. Please refresh and enter credentials.");
         return;
     }
@@ -66,7 +64,7 @@ app.Use(async (context, next) =>
 // Configure the HTTP request pipeline.
 //if (app.Environment.IsDevelopment())
 //{
-app.UseSwagger();
+    app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "ScalableInventory.API v1");
