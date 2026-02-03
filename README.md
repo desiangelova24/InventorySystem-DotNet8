@@ -24,3 +24,11 @@ The application is professionally hosted and live for review:
 2. Update `appsettings.json` with your local SQL Server connection string.
 3. Run `dotnet ef database update` to apply migrations.
 4. Launch the project and navigate to `/index.html` for Swagger documentation.
+
+---
+## 🌐 Infrastructure & Hosting
+This project is professionally hosted on **MonsterASP.net**. 
+
+[![MonsterASP.net](https://www.monsterasp.net/images/logo.png)](https://www.monsterasp.net/)
+
+*Reliable .NET Cloud Hosting used for the live deployment of this API.*
