@@ -1,23 +1,33 @@
-# Scalable Inventory Management System
+# 🚀 Microservices Inventory & Catalog System (2026)
 
-This is a secure Inventory Management API built with .NET 8, designed for scalability and performance.
+This project is a high-performance backend solution for managing warehouse stocks and product catalogs, built with scalability and security in mind.
+
+## 🛠 Tech Stack
+* **Framework:** .NET 8 (Latest LTS)
+* **Database:** SQL Server (Microservices architecture with separate database concerns)
+* **Hosting:** Professionally hosted on [MonsterASP.net](https://www.monsterasp.net/)
+* **Currency:** **EUR** (Fully compliant with Bulgaria 2026 official currency standard)
+* **Documentation:** Swagger / OpenAPI with Middleware Security
+
+## 🌟 Key Features
+* **Massive Data Handling:** Optimized logic for processing 1000+ records with high efficiency.
+* **Architecture:** Clean Repository Pattern & Service Layer for decoupled and maintainable code.
+* **Security:** Integrated HTTP Basic Authentication to protect sensitive API endpoints.
+* **Data Integrity:** Professional SQL Migrations and Soft Delete logic for advanced data safety.
+
+---
 
 ## 🚀 Live Demo & Hosting
 The application is professionally hosted and live for review:
-- **Cloud Provider:** Hosted on **MonsterASP.net** servers.
-- **URL:** [https://scalable-inventory.runasp.net/](https://scalable-inventory.runasp.net/)
-- **Security:** Protected by custom Middleware Authentication.
-- 
-> **Note:** Access is restricted. Please use the following credentials:
-> - **Username:** admin
-> - **Password:** Password123!
+* **Cloud Provider:** Hosted on **MonsterASP.net** servers.
+* **URL:** [https://scalable-inventory.runasp.net/](https://scalable-inventory.runasp.net/)
+* **Security:** Protected by custom Middleware Authentication.
 
-## 🛠 Features
-- **Clean Architecture:** Divided into API, Core, Infrastructure, and Services for better maintainability.
-- **Security:** Implemented HTTP Basic Authentication middleware to protect sensitive endpoints.
-- **Database:** MS SQL Server integrated via Entity Framework Core with full Migration history.
-- **Soft Delete:** Logic implemented to ensure data safety.
-- **Currency:** Fully updated to support **EUR**.
+> **Credentials for Review:**
+> - **Username:** `admin`
+> - **Password:** `Password123!`
+
+---
 
 ## ⚙️ Setup & Installation
 1. Clone the repository.
@@ -25,10 +35,4 @@ The application is professionally hosted and live for review:
 3. Run `dotnet ef database update` to apply migrations.
 4. Launch the project and navigate to `/index.html` for Swagger documentation.
 
----
-## 🌐 Infrastructure & Hosting
-This project is professionally hosted on **MonsterASP.net**. 
-
 [![MonsterASP.net](https://img.shields.io/badge/Hosted%20on-MonsterASP.net-green?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://www.monsterasp.net/)
-
-*Reliable .NET Cloud Hosting used for the live deployment of this API.*
