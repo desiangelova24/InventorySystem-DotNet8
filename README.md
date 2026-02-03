@@ -2,10 +2,12 @@
 
 This is a secure Inventory Management API built with .NET 8, designed for scalability and performance.
 
-## 🚀 Live Demo
-You can access the live API documentation here:
-**[https://scalable-inventory.runasp.net/](https://scalable-inventory.runasp.net/)**
-
+## 🚀 Live Demo & Hosting
+The application is professionally hosted and live for review:
+- **Cloud Provider:** Hosted on **MonsterASP.net** servers.
+- **URL:** [https://scalable-inventory.runasp.net/](https://scalable-inventory.runasp.net/)
+- **Security:** Protected by custom Middleware Authentication.
+- 
 > **Note:** Access is restricted. Please use the following credentials:
 > - **Username:** admin
 > - **Password:** Password123!
